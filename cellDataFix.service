@@ -1,0 +1,9 @@
+Description=Fix Data after resume
+After=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/bin/cellDataFix
+
+[Install]
+WantedBy=suspend.target

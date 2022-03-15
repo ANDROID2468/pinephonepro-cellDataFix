@@ -1,0 +1,7 @@
+#! /bin/bash
+# ANDROID2468
+
+nmcli r wwan off
+sleep 2
+nmcli r wwan on
+
